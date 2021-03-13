@@ -7719,6 +7719,7 @@ button.bg-black:focus {
 .mb-4,
 .my-4 {
   margin-bottom: 1.5rem !important;
+  padding-bottom: 50px;
 }
 
 .ml-4,
@@ -9989,7 +9990,7 @@ a.text-black:hover, a.text-black:focus {
 }
 
 .text-black-50 {
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: rgba(0, 0, 0, 0.75) !important;
 }
 
 .text-white-50 {
@@ -10257,7 +10258,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.75) 75%, rgba(0, 0, 0, 0.3) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -10265,6 +10266,7 @@ body {
 
 .projects-section {
   padding: 10rem 0;
+  background: linear-gradient(lightgray,black);
 }
 .projects-section .featured-text {
   padding: 2rem;
