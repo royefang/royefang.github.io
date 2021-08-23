@@ -1,0 +1,248 @@
+/* .html{
+    font-family: 'Trebuchet MS', sans-serif;
+} */
+
+/* everything */
+* {
+   /* font-size: 1em !important;
+   color: #000 !important; */
+   font-family: 'Trebuchet MS', sans-serif !important;
+   
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}  
+
+/* LANDING SECTION */
+
+.landingSection{
+
+    /* height of page is same as viewport */
+    height: 100vh;
+    
+    /* background image with fade */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.0)), url('./images/landingTree.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* horizontally and vertically center text */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* resize: vertical;
+    overflow: auto; */
+    color: silver;
+}
+.landingSection h1{
+    font-size: 70px;
+}
+
+/* ABOUT SECTION */
+
+.aboutSection{
+
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.7)), url('./images/aboutSky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.aboutSection h1{
+    color: silver;
+    margin: 0;
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+/* PROJECT SECTION */
+
+.projectSection{
+    background-color: #121212;
+}
+
+#projectTitle{
+    margin: 0;
+    color: silver;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.projectContainer{
+    width: 80%;
+    margin: auto;
+}
+
+.projectContainer p, h1{
+    color: silver;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(13, 5vw);
+    grid-gap: 2.5rem; 
+}
+
+.projImg{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0.7;
+    transition: all 0.5s;
+    left: 0;
+    position: relative;
+    z-index: 0;
+}
+
+
+.proj1:hover #projTitle1.projTitle {opacity: 0;}
+.proj1:hover #projDesc1.projDesc {opacity: 1;}
+.proj1:hover proj1 {filter: brightness(40%);}
+.proj1 img{transition: transform 0.5s ease;}
+.proj1:hover img{transform: scale(1.1);}
+
+.proj2:hover #projTitle2.projTitle {opacity: 0;}
+.proj2:hover #projDesc2.projDesc {opacity: 1;}
+.proj2:hover proj2 {filter: brightness(40%);}
+.proj2 img{transition: transform 0.5s ease;}
+.proj2:hover img{transform: scale(1.1);}
+
+.proj3:hover #projTitle3.projTitle {opacity: 0;}
+.proj3:hover #projDesc3.projects {opacity: 1;}
+.proj3:hover proj3 {filter: brightness(40%);}
+.proj3 img{transition: transform 0.5s ease;}
+.proj3:hover img{transform: scale(1.1);}
+
+.proj4:hover #projTitle4.projTitle {opacity: 0;}
+.proj4:hover #projDesc4.projects {opacity: 1;}
+.proj4:hover proj4 {filter: brightness(40%);}
+.proj4 img{transition: transform 0.5s ease;}
+.proj4:hover img{transform: scale(1.1);}
+
+.proj5:hover #projTitle5.projTitle {opacity: 0;}
+.proj5:hover #projDesc5.projects {opacity: 1;}
+.proj5:hover proj5 {filter: brightness(40%);}
+.proj5 img{transition: transform 0.5s ease;}
+.proj5:hover img{transform: scale(1.1);}
+
+.proj6:hover #projTitle6.projTitle {opacity: 0;}
+.proj6:hover #projDesc6.projects {opacity: 1;}
+.proj6:hover proj6 {filter: brightness(40%);}
+.proj6 img{transition: transform 0.5s ease;}
+.proj6:hover img{transform: scale(1.1);}
+
+.proj1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    position: relative;
+    overflow: hidden;
+}
+
+.projText1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    position: relative;
+    overflow: hidden;
+}
+
+.proj2 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    position: relative;
+    overflow: hidden;
+}
+
+.projText2 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    position: relative;
+    overflow: hidden;
+}
+
+.proj3 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    position: relative;
+    overflow: hidden;
+}
+.projText3 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    position: relative;
+    overflow: hidden;
+}
+
+.proj4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    position: relative;
+    overflow: hidden;
+}
+
+.projText4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 9;
+    grid-row-end: 12;
+    position: relative;
+    overflow: hidden;
+}
+
+.proj5 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    position: relative;
+    overflow: hidden;
+}
+
+.projText5 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 9;
+    grid-row-end: 12;
+    position: relative;
+    overflow: hidden;
+}
+
+.proj6 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 6;
+    grid-row-end: 9;
+    position: relative;
+    overflow: hidden;
+}
+.projText6 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 9;
+    grid-row-end: 12;
+    position: relative;
+    overflow: hidden;
+}
