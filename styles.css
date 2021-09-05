@@ -145,6 +145,14 @@ li a {
   
 }
 
+#resumeLink{
+    color:rgb(133, 124, 255);
+}
+
+#resumeLink:visited{
+    color:rgb(239, 115, 255);
+}
+
 /* PROJECT SECTION */
 
 .projectSection{
