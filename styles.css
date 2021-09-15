@@ -49,6 +49,10 @@ li a {
     /* padding-bottom:1px; */
 }
 
+li a:hover{
+    color:pink;
+}
+
 #homeIcon{
     height:80%;
     width:80%;
@@ -146,11 +150,11 @@ li a {
 }
 
 #resumeLink{
-    color:rgb(133, 124, 255);
+    color:cornflowerblue;
 }
 
 #resumeLink:visited{
-    color:rgb(239, 115, 255);
+    color:pink;
 }
 
 /* PROJECT SECTION */
